@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+		
+body {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+			
+	background:goldenrod;
+	margin-top:10px;
+}
+			
+svg {
+	background-color:oldlace;
+	margin-bottom:10px;
+			
+	font-family:Oswald;
+	font-weight:bold;
+}

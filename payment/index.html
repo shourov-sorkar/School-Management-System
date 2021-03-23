@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<style type="text/css">
+		form{
+			width: 30rem;
+			height: 100vh;
+			margin: auto;
+			padding-top: 5rem;
+		}
+		form div{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+		select,input[type="text"]{
+			margin: 1rem;
+			width: 50%;
+			height: 3rem;
+			font-size: 2rem;
+		}
+		button,input[type="submit"]{
+			width: 50%;
+			height: 3rem;
+			margin: 1rem;
+			font-size: 2rem;
+		}
+	</style>
+</head>
+<body>
+	<form method="post" action="">
+		<div>
+			<select>
+				<option value="0">Select</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+			</select>
+			<input type="text" name="value" id="show_val" disabled="">
+		</div>
+		<div>
+			<button id="gen_pay">Submit</button>
+			<input type="submit" name="submit" value="Pay">
+		</div>
+
+	</form>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var gen = $("#gen_pay");
+			var crd = $("select");
+			var show_val = $("#show_val");
+			gen.click(function(e){
+				e.preventDefault();
+				var total_tk = crd.val() * 3500;
+				show_val.val(total_tk);
+			})
+		})
+	</script>
+</body>
+</html>

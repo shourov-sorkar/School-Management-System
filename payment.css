@@ -1,0 +1,143 @@
+body {
+    background: url("img/abc.JPG");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    width:500px;
+    height: 600px;
+    background-color:white; 
+    background: rgba(203, 203, 203, 0.3);
+    margin:  auto;
+    box-shadow: 2px 5px 40px 2px rgba(7, 4, 4, 0.55);
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    height: 40px;
+    background:  rgb(24, 195, 227);
+    border-radius: 5px 5px 0 0;
+
+}
+
+.bottom-bar {
+    height: 60px;
+    background: rgb(24, 195, 227);
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: impact;
+    cursor: not-allowed;
+
+}
+.middle-section {
+    height: 100%;
+    padding: 0 60px;
+}
+.middle-section h1 {
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+}
+.middle-section p {
+    font:  300 16px sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    letter-spacing: .01em;
+
+
+}
+
+.middle-section .input-box input {
+    display: block;
+    line-height: 40px;
+    border: none;
+    margin-bottom: 35px;
+    width: 68%;
+    border-radius: 10px;
+    padding-left: 120px;
+    outline: none;
+    box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.55);
+
+}
+.middle-section .input-box label {
+    background:rgb(24, 195, 227);
+    color: white;
+    font: 300 16px sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    top: 30px;
+    padding: 12px 9px 13px 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+}
+.middle-section .input-box label[for="name"] {
+    padding: 12px 29px 13px 30px
+}
+.middle-section .input-box label:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 21px solid transparent;
+    border-left: 7px solid rgb(24, 195, 227);
+    border-bottom: 21px solid transparent;
+   
+    position: absolute;
+    left:97px;
+    bottom: 0px;
+}
+
+.middle-section  input[type="checkbox"] {
+    
+    -ms-transform: scale(1.5); 
+    -moz-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    -o-transform: scale(1.5); 
+    position: relative;
+    top:-10px;
+    
+}
+.middle-section  [for="remember"] {
+    color: black;
+    font: 400 22px sans-serif;
+    position: relative;
+    top:-9px;
+    left: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.flex-container button {
+    border: 3px solid #fff;
+    background: rgba(24, 195, 227, .7);
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font:  300 16px sans-serif;
+    text-transform: uppercase;
+    color: white;
+    transition: all .2s;
+}
+.flex-container button:hover {
+    
+    background: lightgreen;
+    cursor: pointer;
+    
+}
+
+.flex-container button:active {
+    transform: translateY(2px)
+}

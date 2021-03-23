@@ -1,0 +1,13 @@
+body{
+	background-image: url("http://iubat.edu/wp-content/uploads/2019/07/IUBAT-visiting-team-education-minister2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #ff6699;
+}
+
+h1{
+	text-align : center;
+	background: lightblue;
+	font-size: 100px;
+	filter: blur(5px);
+}

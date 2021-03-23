@@ -1,0 +1,21 @@
+body{
+  background-image: url("https://www.pexels.com/photo/brown-wooden-table-with-chair-3097112/");
+  font-family: impact;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ul{
+  padding:  0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+  margin-top: 1rem;
+}
+ul li a{
+  font-size: 2rem;
+  text-decoration: none;
+}
