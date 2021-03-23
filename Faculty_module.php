@@ -27,10 +27,10 @@
         <header>
             <div class="owl-carousel">
                 <div>
-                    <img src="IMG_9581.JPG">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1009&q=80">
                 </div>
                 <div>
-                    <img src="IMG_9697.JPG">
+                    <img src="https://images.unsplash.com/photo-1576267421707-b255b46fc4fb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80">
                 </div>
             </div>
         </header>

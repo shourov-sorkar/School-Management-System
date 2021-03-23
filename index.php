@@ -22,8 +22,8 @@
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html">Home</a></li>
                 <li class="nav-item"><a href="result.html" target="="_BLANK>Result</a></li>
-                <li class="nav-item"><a href="course_login/my_courses/index.html" target="="_BLANK>Course</a></li>
-                <li class="nav-item"><a href="http://cse.iubat.edu/faculty/" target="=" _BLANK>Faculty list</a>
+                <li class="nav-item"><a href="#" target="="_BLANK>Subjects</a></li>
+                <li class="nav-item"><a href="#" target="=" _BLANK>Teachers</a>
                     <li class="nav-item"><a href="others.html" target="="_BLANK>Others</a>
                 </li>
             </ul>
@@ -31,10 +31,10 @@
         <header>
             <div class="owl-carousel">
                 <div>
-                    <img src="img/home-slider-iubat.jpg">
+                    <img src="https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80">
                 </div>
                 <div>
-                    <img src="img/IUBAT-VC.jpg">
+                    <img src="https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
                 </div>
             </div>
         </header>

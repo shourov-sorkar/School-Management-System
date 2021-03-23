@@ -46,7 +46,7 @@
                 </form>
             </div>
             <div class="bottom-bar">
-                Developed by Shourov
+                Developed by Tracker
             </div>
         </div>
 

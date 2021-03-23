@@ -11,7 +11,13 @@
   <a href="std_login.php">Student</a>
 </div>
 <div class="container">
-  <a href="fc_login.php">Faculty</a>
+  <a href="fc_login.php">Teacher</a>
+</div>
+<div class="container">
+  <a href="fc_login.php">Admin</a>
+</div>
+<div class="container">
+  <a href="fc_login.php">Staff</a>
 </div>
 </body>
 </html>
