@@ -18,7 +18,7 @@
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#">Home</a></li>
                 <li class="nav-item"><a href="Students_info.php" target="="_BLANK>Student Information</a></li>
-                <li class="nav-item"><a href="course_login/login.php" target="="_BLANK> My Course</a></li>
+                <li class="nav-item"><a href="#" target="="_BLANK> My Course</a></li>
                 <li class="nav-item"><a href="#" target="=" _BLANK>Results</a>
                     <li class="nav-item"><a href="#" target="="_BLANK>Others</a>
                 </li>
